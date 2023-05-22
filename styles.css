@@ -1,38 +1,83 @@
-body {
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-		}
-		header {
-			background-color: #333;
-            
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		nav {
-			background-color: #444;
-			color: #fff;
-			display: flex;
-			justify-content: center;
-			padding: 10px;
-		}
-		nav a {
-			color: #fff;
-			margin: 0 10px;
-			text-decoration: none;
-		}
-		nav a:hover {
-			text-decoration: underline;
-		}
-		section {
-			margin: 20px auto;
-			max-width: 800px;
-			padding: 20px;
-			background-color: #fff;
-		}
-		footer {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
+body{
+	background-color: #f2f2f2;
+	font-family:sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-color: #333;
+    color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav{
+	background-color: #444;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+nav a{
+	color: #fff;
+	margin: 0 10px;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+nav a:hover{
+	text-decoration: none;
+	font-size: 1.025em;
+}
+
+section{
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+footer{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+
+p{
+	font-weight: 500;
+	line-height: 1.35em;
+}
+
+img{
+	width: 30em;
+}
+
+.cancer-image{
+	width: 100%;
+}
+
+.index-h2{
+	margin-top: 1.25em;
+	font-size: 2.25em;
+}
+
+.prostenal{
+	width: 20em;
+}
+
+.prostamill{
+	width: 20em;
+}
+
+.img-div{
+	display: flex;
+	justify-content: center;
+}
+
+.culori{
+	width: 100%;
+}
